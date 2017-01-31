@@ -5,6 +5,8 @@ repo = 'Shougo/dein.vim'
 repo = 'Shougo/vimproc.vim'
 hook_post_update = '''
   if dein#util#_is_windows()
+    " automatically download dll for windows
+    let g:vimproc#download_windows_dll = 1
     let cmd = 'tools\\update-dll-mingw'
   elseif dein#util#_is_cygwin()
     let cmd = 'make -f make_cygwin.mak'
