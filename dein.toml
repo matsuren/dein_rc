@@ -57,6 +57,13 @@ hook_add = '''
 [[plugins]]
 repo = 'w0ng/vim-hybrid'
 hook_add = 'colorscheme hybrid'
+
+[[plugins]]
+repo = 'sjl/badwolf'
+
+[[plugins]]
+repo = 'vim-scripts/Wombat'
+
 [[plugins]]
 repo = 'tikhomirov/vim-glsl'
 
